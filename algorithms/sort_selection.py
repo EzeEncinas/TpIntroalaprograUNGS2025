@@ -18,6 +18,11 @@ def init(vals):
 
 def step():
     global items, n, i, j, min_idx, fase
+
+    if i >= n - 1:
+        return {done: True}
+
+    
     for i in range(0, len(lista)):
         min_idx = i
         for j in range (i+1, len(lista)): 
