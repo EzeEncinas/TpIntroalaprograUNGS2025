@@ -29,6 +29,3 @@ for i in range(0, len(lista)):
             min_idx = lista[j]
             lista[j] = aux
     return {"done": True}
-
-
-
