@@ -19,12 +19,20 @@ def init(vals):
 def step():
     global items, n, i, j, min_idx, fase
 
+    #Si terminamos 
     if i >= n - 1:
         return {done: True}
-
+    #Fase "buscar" el minimo
+    if fase == "buscar":
+        #Mientras j este dentro de la lista, seguimos comparando
+        if j < n: 
+            a = min_idx #indice del minimo actual
+            b = j #indice que estamos comparando ahora
+            
+    #Comparacion 
     
-    for i in range(0, len(lista)):
-        min_idx = i
+    
+    
         for j in range (i+1, len(lista)): 
             if min_idx > lista[j]:
                 min_idx =j
