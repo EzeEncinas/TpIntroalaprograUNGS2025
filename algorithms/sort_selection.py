@@ -17,15 +17,15 @@ def init(vals):
     fase = "buscar"
 
 def step():
-    lista = [3, 5, 2, 1, 4]
-
-for i in range(0, len(lista)):
-    min_idx = i
-    for j in range (i+1, len(lista)): 
-        if min_idx > lista[j]:
-            min_idx =j
-
-            aux = min_idx
-            min_idx = lista[j]
-            lista[j] = aux
+    global items, n, i, j, min_idx, fase
+    for i in range(0, len(lista)):
+        min_idx = i
+        for j in range (i+1, len(lista)): 
+            if min_idx > lista[j]:
+                min_idx =j
+                
+    aux = lista[j]
+    lista[i] = lista[min_idx]
+    lista[min_idx] = aux 
+    
     return {"done": True}
