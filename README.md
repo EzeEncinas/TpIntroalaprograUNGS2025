@@ -16,3 +16,5 @@ Respecto al Step, como en las prácticas al ser el que termina el ciclo, suponia
 
 Selection Sort:
 Como notas de este algoritmo, a la hora de la busqueda y asignación del minimo en la variable tuvimos complicaciones para poder entenderlo. Nos devolvia el valor que le estabamos asignando, repetido varias veces y no el indice como debería.
+
+Insertion Sort:
