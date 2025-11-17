@@ -24,7 +24,19 @@ def step():
         j = i 
         return {"a": j-1 , "b": j, "swap": False, "done": False}
     
-    if
+    if j > 0 and items[j-1] > items[j]:  #Si podemos desplazar hacia la izquierda
+        # Hacemos swap
+        aux = items[j-1]
+        items[j-1] = items[j]
+        items[j] = aux 
+        j = j - 1
+        return {"a": j, "b": j+1, "swap": True, "done": False}
+    #Ya no hay que desplazar entonces avanzamos al siguiente i
+    i= i + 1
+    j = None
+    return {"a": -1, "b": -1, "swap": False, "done": False}
+
+
 
     
 
