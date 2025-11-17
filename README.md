@@ -14,3 +14,5 @@ Como notas de este algoritmo, al ser el primero que desarrollamos nos costó ent
 Poder identificar los cambios de variables que debiamos realizar en el Swap, ya que debiamos intercambiar indices y no valores. 
 Respecto al Step, como en las prácticas al ser el que termina el ciclo, suponiamos que debia estar al final, pero pudimos entender que debía estar al principio del código para que pueda finalizar el ciclo.
 
+Selection Sort:
+Como notas de este algoritmo, a la hora de la busqueda y asignación del minimo en la variable tuvimos complicaciones para poder entenderlo. Nos devolvia el valor que le estabamos asignando, repetido varias veces y no el indice como debería.
