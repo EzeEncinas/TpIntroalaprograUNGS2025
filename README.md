@@ -7,4 +7,10 @@ Comparar listas y ubicar los elementos en el orden correcto implementando los al
 Ezequiel Encinas - Guido Vazquez
 
 Notas de Implementación:
+Como nota general decidimos usar comentarios, en cada parte del código que el algoritmo tenga un paso importante. Además nos sirvió para poder desarrollar el código por partes, entender el funcionamiento y decidir el siguiente paso. 
+
+Bubble Sort:
+Como notas de este algoritmo, al ser el primero que desarrollamos nos costó entender que el visual studio ya traía definidos los ciclos. 
+Poder identificar los cambios de variables que debiamos realizar en el Swap, ya que debiamos intercambiar indices y no valores. 
+Respecto al Step, como en las prácticas al ser el que termina el ciclo, suponiamos que debia estar al final, pero pudimos entender que debía estar al principio del código para que pueda finalizar el ciclo.
 
