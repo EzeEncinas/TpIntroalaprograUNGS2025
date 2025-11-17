@@ -22,7 +22,9 @@ def step():
     # Si j es None, iniciamos el desplazamiento del elemento en i
     if j == None: 
         j = i 
-        return {"a": j-1 if j > 0 else None, "b": j, "swap": False, "done": False}
+        return {"a": j-1 , "b": j, "swap": False, "done": False}
+    
+    if
 
     
 
