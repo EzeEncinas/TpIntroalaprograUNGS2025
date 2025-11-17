@@ -5,3 +5,6 @@ Comparar listas y ubicar los elementos en el orden correcto implementando los al
 #Alumnos:
 Ezequiel Encinas -
 Guido Vazquez
+
+Notas de Implementación:
+
