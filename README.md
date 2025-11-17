@@ -18,3 +18,4 @@ Selection Sort:
 Como notas de este algoritmo, a la hora de la busqueda y asignación del minimo en la variable tuvimos complicaciones para poder entenderlo. Nos devolvia el valor que le estabamos asignando, repetido varias veces y no el indice como debería.
 
 Insertion Sort:
+Como notas de este algoritmo, identificamos un error en el Step, en el desplazamiento del elemento i. Habiamos puesto una condición dentro del return, y la simplificamos antes, para que quede mas claro el código. 
