@@ -29,7 +29,16 @@ def step():
             a = min_idx #indice del minimo actual
             b = j #indice que estamos comparando ahora
             
-    #Comparacion 
+            #Comparacion 
+            if items[j]<items[min_idx]:
+                min_idx = j #nuevo minimo encontrado
+            j = j + 1  #avanzar a la siguiente vuelta
+            return { "a": a, "b": b, "swap": False, "done": False}
+        #si terminamos de desplazarlos, pasamos a la fase swap
+        fase = "swap"
+    # Fase de hacer el swap
+    
+        
     
     
     
